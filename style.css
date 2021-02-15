@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+p, a, figcaption {
+  font-family: 'Rosarivo', serif;
+}
+h1, h2, h3, aside {
+  font-family: 'Rambla', sans-serif;
+  font-weight: 700;
+}
+button {
+  font-family: 'Rambla', sans-serif;
+  font-weight: 400;
+}
+
+/*----nav styles-----*/
+.logo {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 23px;
+  padding-top: 13px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  padding: 0 1em;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1.2em;
+  font-size: 13px;
+}
+nav ul li a:hover {
+  color: green;
+}
+span {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+/*----about styles-----*/
+.about-section {
+  display: flex;
+  margin-top: 4em;
+}
+.about-section img {
+  height: 500px;
+  width: auto;
+}
+.about-text {
+  margin: 3.5em 4em 0;
+  position: relative;
+}
+.about-text header {
+  font-size: 1.8em;
+  margin-bottom: -10px;
+}
+
+/*----test styles-----*/
+.testimonials {
+  background-color: #EBEBEB;
+  text-align: center;
+  padding: 1.6em 0;
+  margin: 3em 0;
+}
+.testimonials div {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.testimonials header {
+  font-size: 1.2em;
+  margin-bottom: -10px;
+}
+.testimonials-link {
+  color: black;
+}
+
+/*----article styles-----*/
+.products {
+  display: flex;
+}
+.products img {
+  width: 100%;
+}
+.product-article {
+  text-align: center;
+}
+.product-article header {
+  font-size: 1.3em;
+  margin-bottom: -3px;
+}
+button {
+  margin: .8em auto 2em auto;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 2em;
+  border: 0;
+  transition: .5s ease-in-out;
+}
+button:hover {
+  border-radius: 8px;
+  cursor: pointer;
+}
+.aside-section {
+  display: flex;
+}
+.oils-text {
+  text-align: left;
+}
+aside {
+  background-color: #EBEBEB;
+  width: 400px;
+  position: relative;
+  border: 2px black dashed;
+}
+aside div {
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*----page footer styles-----*/
+.page-footer {
+  background-color: black;
+  color: white;
+  padding: 2em 0;
+  text-align: center;
+  margin-top: 3em;
+}
