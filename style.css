@@ -1,3 +1,9 @@
+/*
+font ideas:
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -20,9 +26,13 @@ button {
 
 /*----nav styles-----*/
 .logo {
+  padding-top: 14px;
+}
+.logo a {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 23px;
-  padding-top: 13px;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
 }
 nav {
   display: flex;
@@ -95,9 +105,16 @@ span {
 /*----article styles-----*/
 .products {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.products img {
+.products {
+  margin: 0;
+}
+.img-placeholder {
+  background-color: rgb(212, 255, 234);
   width: 100%;
+  height: 10em;
 }
 .product-article {
   text-align: center;
@@ -118,25 +135,6 @@ button {
 button:hover {
   border-radius: 8px;
   cursor: pointer;
-}
-.aside-section {
-  display: flex;
-}
-.oils-text {
-  text-align: left;
-}
-aside {
-  background-color: #EBEBEB;
-  width: 400px;
-  position: relative;
-  border: 2px black dashed;
-}
-aside div {
-  font-size: 2em;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /*----page footer styles-----*/
