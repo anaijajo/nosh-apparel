@@ -7,3 +7,7 @@
   border-radius: 100%;
   margin-left: 5px;
 }
+
+#message-box {
+  padding: 4em 9em;
+}
